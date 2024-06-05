@@ -7,8 +7,8 @@ import tensorflow as tf
 data = load_breast_cancer()
 X_train, X_test, y_train, y_test = train_test_split(data.data, data.target, test_size=0.33)
 
-N, D  = X_train.shape
-N,D
+N, D = X_train.shape
+N, D
 
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
